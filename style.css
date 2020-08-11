@@ -1,0 +1,148 @@
+
+#body{
+    padding:10vh;
+    /* background-color: red; */
+    font-family: cursive;
+    background-image: url(https://64.media.tumblr.com/354be9832ee5f8f6df12a020f948397e/tumblr_odopv6RRvt1rgoni8o1_500.gif);
+}
+body{
+    padding:10vh;
+    font-family: cursive;
+    
+    
+}
+
+#error{
+    color: red;
+    visibility: hidden;
+    
+}
+/* search button css */
+.favbtn,.removeButton{
+    height: 5vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color:red ;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    animation: changec 2s ease-in-out infinite alternate ;
+    color: white;
+    font-weight: bold;
+
+
+
+}
+.listitem{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-top: 15px;
+ height: 20vh;
+ border-radius: 100px;
+ animation: changeb 2s ease-in-out infinite alternate ;
+
+
+}
+.listitem a{
+    flex-grow: 1;
+    text-align: center;
+}
+.listitem span{
+    font-size: x-large;
+    width:100%; 
+    font-weight: bold;
+    text-shadow: 0 5px 4px  aquamarine ;
+}
+.images{
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+
+}
+/* on focus on buttons */
+.favbtn:focus,.removeButton:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+/*  */
+
+ul{
+    padding-inline-start: 0px;
+}
+
+#infoimage{
+     
+    height:30vh ;
+    width: 30vh ;
+    
+    border:solid;
+
+}
+#infoimage img{
+    width: 100%;
+    height: 100%;
+}
+#notification{
+    visibility: hidden;
+    
+
+}
+#notification.show{
+    visibility:visible;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    animation: fadein 0.5s, fadeout 0.5s 1.5s;
+
+}
+
+#notify{
+
+    position: fixed;
+    z-index: 1;
+    top: 5vh;
+    right: 0vh;
+}
+
+
+.suggestions{
+    border: solid;
+    border-width: 0.5px;
+    cursor: pointer;
+    color: white;
+
+}
+.suggestions:hover{
+    background-color: gray;
+}
+
+header{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: dodgerblue;
+    left: 0;
+    height: 80px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+#searchdiv{
+
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
