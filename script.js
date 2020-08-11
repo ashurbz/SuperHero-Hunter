@@ -146,7 +146,7 @@
                 var favbutton  =document.createElement('button');
                 var image=document.createElement('img');
                 var href=document.createElement('a');
-                href.href="info.html";
+                href.href="details.html";
                 // href.target='blank';
                 favbutton.addEventListener('click',function(){
 
